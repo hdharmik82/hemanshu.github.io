@@ -297,9 +297,9 @@
   <div class="h4 text-center mb-4 title">Certificates</div>
   <div class="nav-align-center">
   <ul class="nav nav-pills nav-pills-primary" role="tablist">
-  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-certificate" aria-hidden="true"></i></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-  <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-certificate" aria-hidden="true"></i></a></li> -->
+  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist" data-toggle="tooltip" data-placement="top" title="Internships"><i class="fa fa-certificate" aria-hidden="true"></i></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist" data-toggle="tooltip" data-placement="top" title="Certification"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist" data-toggle="tooltip" data-placement="top" title="Participation"><i class="fa fa-certificate" aria-hidden="true"></i></a></li>
   </ul>
   </div>
   </div>
@@ -333,7 +333,7 @@
   </figcaption>
   </figure></a></div>
   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-  <figure class="cc-effect"><center><img src="images/cert/c1.png" alt="Image" height="390pxw" /></center>
+  <figure class="cc-effect"><center><img src="images/cert/c1.png" alt="Image" height="390px" /></center>
   <figcaption>
   <div class="h4">Internship Letter</div>
   <p>By Iotronixs Nagpur</p>
@@ -579,4 +579,7 @@
   }
   form.addEventListener("submit", handleSubmit)
 </script>
+<script>$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
 </html>
